@@ -1,1 +1,1 @@
-declare module 'jsx-no-react';
+export function jsxElem(a: any): any
