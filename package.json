@@ -1,29 +1,31 @@
 {
   "name": "jsx-no-react",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Use JSX without React",
   "repository": "https://github.com/bitboxer/jsx-no-react",
   "author": "Terry Kerr <t@xnr.ca>",
   "contributors": [
     "Bodo Tasche <bodo@wannawork.de>",
-    "Matteo Barison <info@matteobarison.com>"
+    "Matteo Barison <info@matteobarison.com>",
+    "Kamil Jakrzewski <96.kamil.j@gmail.com>"
   ],
   "license": "MPL-2.0",
   "private": false,
-  "main": "dist/main.iife.js",
+  "main": "dist/main.js",
   "module": "dist/module.es6.js",
+  "types": "./index.d.ts",
   "scripts": {
     "build": "rollup -c --environment INCLUDE_DEPS,BUILD:production",
-    "test": "yarn run jest"
+    "test": "jest"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@rollup/plugin-babel": "^5.1.0",
-    "@rollup/plugin-node-resolve": "^13.0.0",
-    "babel-jest": "^27.0.1",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "babel-jest": "^24.9.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
-    "jest": "^26.6.3",
+    "jest": "^24.9.0",
     "rollup": "^2.23.0"
   }
 }

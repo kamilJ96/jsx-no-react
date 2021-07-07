@@ -4,10 +4,8 @@ import babel from '@rollup/plugin-babel';
 export default {
   input: 'src/module.js',
   output: [{
-    file: 'dist/main.iife.js',
-    format: 'iife',
-    exports: 'named',
-    name: 'JSXNoReact'
+    file: 'dist/main.js',
+    format: 'cjs',
   }, {
     file: 'dist/module.es6.js',
     format: 'es',
