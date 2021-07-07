@@ -1,6 +1,6 @@
 # jsx-no-react
 
-[![Build Status](https://github.com/bitboxer/jsx-no-react/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/bitboxer/jsx-no-react/actions/workflows/node.js.yml)
+*Code forked from [bitboxer](https://github.com/bitboxer/jsx-no-react) - added a types file to shut-up intellisense and change how the bundle is built/distributed as it the default export was causing issues with webpack/babel/mocha*
 
 `jsx-no-react` makes it possible to use React's JSX syntax outside of React projects.
 
