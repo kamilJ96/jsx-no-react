@@ -1,5 +1,5 @@
 {
-  "name": "jsx-no-react",
+  "name": "@kamilj96/jsx-no-react",
   "version": "0.5.1",
   "description": "Use JSX without React",
   "repository": "https://github.com/bitboxer/jsx-no-react",
